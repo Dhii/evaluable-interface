@@ -17,6 +17,8 @@ interface EvaluableInterface
      * @param ValueAwareInterface $ctx [optional] A contextual value. Default: null
      *
      * @return mixed The evaluated result.
+     *
+     * @throws EvalExceptionInterface If an error was encountered during evaluation.
      */
     public function evaluate(ValueAwareInterface $ctx = null);
 }
