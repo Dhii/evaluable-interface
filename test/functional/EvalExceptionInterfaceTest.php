@@ -36,7 +36,7 @@ class EvalExceptionInterfaceTest extends TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @covers \Dhii\Espresso\EvalExceptionInterface
+     * @covers \Dhii\Evaluable\EvalExceptionInterface
      *
      * @since [*next-version*]
      */
