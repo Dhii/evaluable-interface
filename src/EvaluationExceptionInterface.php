@@ -7,6 +7,6 @@ namespace Dhii\Evaluable;
  *
  * @since [*next-version*]
  */
-interface EvalExceptionInterface
+interface EvaluationExceptionInterface
 {
 }

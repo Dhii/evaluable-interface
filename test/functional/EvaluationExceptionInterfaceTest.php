@@ -2,28 +2,28 @@
 
 namespace Dhii\Evaluable\Test;
 
-use \Dhii\Evaluable\EvalExceptionInterface;
+use \Dhii\Evaluable\EvaluationExceptionInterface;
 use \Xpmock\TestCase;
 
 /**
- * Tests {@see \Dhii\Evaluable\EvalExceptionInterface}.
+ * Tests {@see \Dhii\Evaluable\EvaluationExceptionInterface}.
  *
  * @since [*next-version*]
  */
-class EvalExceptionInterfaceTest extends TestCase
+class EvaluationExceptionInterfaceTest extends TestCase
 {
 
     /**
      * The name of the test subject.
      */
-    const TEST_SUBJECT_CLASSNAME = 'Dhii\\Evaluable\\EvalExceptionInterface';
+    const TEST_SUBJECT_CLASSNAME = 'Dhii\\Evaluable\\EvaluationExceptionInterface';
 
     /**
      * Creates a new instance of the test subject.
      *
      * @since [*next-version*]
      *
-     * @return EvalExceptionInterface
+     * @return EvaluationExceptionInterface
      */
     public function createInstance()
     {
@@ -36,7 +36,7 @@ class EvalExceptionInterfaceTest extends TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @covers \Dhii\Evaluable\EvalExceptionInterface
+     * @covers \Dhii\Evaluable\EvaluationExceptionInterface
      *
      * @since [*next-version*]
      */

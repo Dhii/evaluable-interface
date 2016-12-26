@@ -18,7 +18,7 @@ interface EvaluableInterface
      *
      * @return mixed The evaluated result.
      *
-     * @throws EvalExceptionInterface If an error was encountered during evaluation.
+     * @throws EvaluationExceptionInterface If an error was encountered during evaluation.
      */
     public function evaluate(ValueAwareInterface $ctx = null);
 }
