@@ -5,7 +5,7 @@ namespace Dhii\Evaluable\Test;
 /**
  * Tests {@see \Dhii\Evaluable\EvaluableInterface}.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 class EvaluableInterfaceTest extends \Xpmock\TestCase
 {
@@ -18,7 +18,7 @@ class EvaluableInterfaceTest extends \Xpmock\TestCase
     /**
      * Creates a new instance of the test subject.
      *
-     * @since [*next-version*]
+     * @since 0.1
      *
      * @return \Dhii\Evaluable\EvaluableInterface
      */
@@ -34,7 +34,7 @@ class EvaluableInterfaceTest extends \Xpmock\TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @since [*next-version*]
+     * @since 0.1
      */
     public function testCanBeCreated()
     {

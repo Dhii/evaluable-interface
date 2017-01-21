@@ -1,33 +1,28 @@
 {
     "name": "dhii/evaluable-interface",
-    "description": "An interface for an object that can be evaluated.",
+    "description": "Increasing interoperability for objects that can be evaluated",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Dhii",
+            "name": "Dhii Team",
             "email": "development@dhii.co"
         }
     ],
     "minimum-stability": "dev",
     "require": {
         "php": "^5.3.9 | ^7.0",
-        "dhii/data-key-value-aware-interface": "dev-master"
+        "dhii/data-key-value-aware-interface": "^0.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^4.8",
         "ptrofimov/xpmock": "^1.1",
-        "dhii/php-cs-fixer-config": "dev-php-5.3"
+        "dhii/php-cs-fixer-config": "dev-php-5.3",
+        "codeclimate/php-test-reporter": "<=0.3.2"
     },
     "autoload": {
         "psr-4": {
             "Dhii\\Evaluable\\": "src/"
         }
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/Dhii/data-key-value-aware-interface"
-        }
-    ]
+    }
 }
