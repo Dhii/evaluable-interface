@@ -1,6 +1,6 @@
 {
     "name": "dhii/evaluable-interface",
-    "description": "An interface for an object that can be evaluated.",
+    "description": "Increasing interoperability for objects that can be evaluated",
     "type": "library",
     "license": "MIT",
     "authors": [
