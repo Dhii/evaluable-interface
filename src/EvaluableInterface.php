@@ -7,7 +7,7 @@ use Dhii\Data\ValueAwareInterface;
 /**
  * Any object that can be evaluated.
  *
- * @since [*next-version*]
+ * @since 0.1
  */
 interface EvaluableInterface
 {
