@@ -34,8 +34,6 @@ class EvaluableInterfaceTest extends \Xpmock\TestCase
     /**
      * Tests whether a valid instance of the test subject can be created.
      *
-     * @covers \Dhii\Evaluable\EvaluableInterface
-     *
      * @since [*next-version*]
      */
     public function testCanBeCreated()
