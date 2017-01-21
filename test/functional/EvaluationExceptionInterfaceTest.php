@@ -2,8 +2,8 @@
 
 namespace Dhii\Evaluable\Test;
 
-use \Dhii\Evaluable\EvaluationExceptionInterface;
-use \Xpmock\TestCase;
+use Dhii\Evaluable\EvaluationExceptionInterface;
+use Xpmock\TestCase;
 
 /**
  * Tests {@see \Dhii\Evaluable\EvaluationExceptionInterface}.
